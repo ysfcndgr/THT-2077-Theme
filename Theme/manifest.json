@@ -1,0 +1,21 @@
+{
+"name":"THT-2077-Theme",
+"version":"1.0",
+"manifest_version":2,
+"description": "TurkHackTeam 2077 Teması",
+"permissions": [
+"tabs",
+"bookmarks",
+"http://*.turkhackteam.org/*",
+"unlimitedStorage"
+],
+
+"content_scripts":[
+{
+"matches":["https://*.turkhackteam.org/*"],
+"js":["content.js"]
+
+}
+]
+
+}
