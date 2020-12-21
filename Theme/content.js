@@ -1,6 +1,5 @@
 (function() {
     'use strict';
-    //document.body.style.textShadow="1px 1px 20px darkcyan";
    try{
 for(var post=0;post<10;post++){
     // spe-button1 .spe-button1
@@ -33,12 +32,7 @@ catch (e){
   catch(rex){
 	  
   }
-    /*
-     for(var light =0; light<2;light++){
-
-                 document.getElementsByClassName("sn-col").item(light).style.textShadow ="1px 1px 20px darkcyan";
-
-     }*/
+   
 
      try{
     document.getElementsByClassName("rro-bg").item("0").remove();
